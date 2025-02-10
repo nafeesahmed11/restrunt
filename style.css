@@ -1,0 +1,321 @@
+
+  body{margin: 0;
+    font-family: "Quicksand", serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     /* min-width:33rem ; */
+     
+   }
+   
+   /* top-menu */
+   .top-img_and_contant{
+     background-image: url(./imges/top-b.png);
+     height: 500px;
+     overflow: hidden;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   
+   header.top {
+    background-image: url(./1.png);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+   }
+   nav.top-nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+   }
+   .logo {
+    width: 30%;
+    height: 100%;
+   }
+   img.log {
+    height: 25px;
+   }
+   .top-nav>menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+   }
+   .top-nav>menu>li>a{
+    text-decoration: none;
+    color: white;
+   }
+   .top-nav>menu>i{
+     color: palegoldenrod;
+   }
+   
+   /* top-contant */
+   .top-content {
+     width: 259px;
+     /* background: red; */
+     height: 265px;
+     /* display: flex; */
+     position: relative;
+     left: 65%;
+     margin-top: 60px;
+   }
+   .title{
+     color: #ffc200; 
+     height: 40px;
+     font-size: 50px;
+   }
+   .top-content>p{
+     color: white;
+   }
+   button {
+     height: 29px;
+     width: 120px;
+     background-color: #ffc200;
+     border: none;
+     border-radius: 5px;
+   }
+   a{
+     text-decoration: none;
+     color:#262626;
+   }
+   /* 2nd Area */
+   .con-b_seller {
+     margin-top: 53px;
+     padding-bottom: 10px;
+   }
+   /* b_con-1 */
+   .con-b1 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   /* b_bon-2 */
+   .con-b2 {
+     display: flex;
+     justify-content: space-evenly;
+     gap: 9px;
+     
+   }
+   /* fd1 */
+   .f1 {
+     width: 200px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #eae9e998;
+     padding: 10px;
+     border-radius: 5px;
+     box-shadow: 3px 2px 10px rgba(128, 128, 128, 0.599);
+   }
+   .f1>div>img{
+     height:100px;
+   }
+   .title-2{font-family: "Grand Hotel", serif;}
+   
+   .f1>div:nth-child(2){
+    text-align: center;
+   }
+   .title-3{height: 20px;}
+   /* Area 2 end */
+   
+   /* Area 3 start */
+   /* part 1 */
+   section.taste_Cont {
+     background-image: url(./imges/Vec-taste_back.png);
+     display: flex;
+     margin-top: 100px;
+     gap: 10px;
+     justify-content: space-around;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y: 0%;
+   }
+   .tas-img {
+     height: 300px;
+     width: 300px;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+   }
+   .tas-img>img{
+     height: 200px;
+   }
+   /* part2 */
+   .tas-para {
+     width: 320px;
+   }
+   .tas-para>p{
+     color: white;
+   }
+   /* area3 end */
+   
+   /* Area 4 start */
+   section.statistics {
+     background-image: url(./imges/Vec-statistics.png);
+     height: 500px;
+     padding-bottom: 70px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+   }
+   .sub-statis{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   .stati1{
+     margin-top: 102px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+   }
+   .stati1 p{
+     color: white;
+     font-size: 15px;
+   }
+   /* part2 */
+   .stati2 {
+     display: flex;
+     justify-content: space-between;
+     gap:30px;
+   }
+   .stati2>div{
+     border: 1px solid white;
+     border-radius: 20rem;
+     width: 100px;
+     height: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 16px;
+   }
+   .title-4{  
+       color: #ffc200;
+     height:1px;
+     font-size: 20px;
+     
+   }
+   .stati2>div>p{
+     color: white;
+   }
+   /* Area 5 strat */
+   section.grill-con {
+     background-image: url(./imges/Vec-grill.png);
+     display: flex;
+     gap: 10px;
+     justify-content: space-around;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y: 100%;
+   }
+   /* Area 6 start */
+   .len-fields{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-image: url(./imges/vac-fields-back_.png);
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 100px 313px 100px 313px;
+     text-align: center;
+   }
+   .len-fields>p{
+     color: #262626;
+     font-size: 20px;
+   }
+   .Subscribes{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-image: url(./imges/Vec-subs.png);
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 100px 313px 100px 313px;
+     text-align: center;
+   }
+   .Subscribes>p{
+     color: rgba(17, 17, 17, 0.611);
+     font-size: 20px;
+   }
+   .Subscribes>div {
+     display: flex;
+     border: 1px solid rgb(0 0 0 / 41%);
+     height: 40px;
+     width: 300px;
+     border-radius: 7px;
+     padding-left: 12px;
+     position: relative;
+     justify-content: center;
+   }
+   #mail{
+     border: none ;
+     outline: none ;
+    background-color: transparent;
+     
+   }
+   .subs-h {
+     /* border-radius: 1rem; */
+     background-color: #ffc200;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .subs-h>h3 {
+     font-size: 12px;
+     height: 29px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   /* footer area */
+   footer.foot {
+     background: #262626;
+     padding-bottom: 100px;
+     /* justify-content: center; */
+     display: flex;
+     gap: 20px;
+     color: rgba(255, 255, 255, 0.924);
+   }
+   .fot-1{
+     width: 40%;
+     font-size: 16px;
+   }
+   .sub-fot{
+     display: flex;
+     gap: 10px;
+     width: 60%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+   }
+   .fot-2 p{
+     color: rgba(255, 255, 255, 0.86);
+   }
+   .fot-2 p>a{color: rgba(255, 255, 255, 0.771);}
+   
+   
+   /* ___________________MOBILE_________________ */
+   
+   @media screen and (max-width:600px){
+    .top{
+      padding-bottom: 0;
+    }
+    .top-content {
+      width: 259px;
+      /* background: red; */
+      height: 0;
+      /* display: flex; */
+      position: relative;
+      left: 25%;
+      margin-top: 60px;
+  }
+    
+   }
