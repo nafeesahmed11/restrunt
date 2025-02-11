@@ -357,8 +357,9 @@
 /* ___________3rd Area__________ */
 section.taste_Cont {
   flex-direction: column;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   align-items: center;
+  background-position-y: 19px;
   justify-content: center;
   
 }
