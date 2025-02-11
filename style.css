@@ -317,13 +317,17 @@
       height: 100vh;
   }
     .top-content {
-      width: 259px;
-      /* background: red; */
-      height: 0;
-      /* display: flex; */
+      min-width: 200px;
       position: relative;
-      left: 25%;
+      left: 0;
       margin-top: 60px;
+      background-color: rgba(59, 57, 57, 0.573);
+      box-shadow: .2px .2px  ;
+      border-radius: 10px ;backdrop-filter: blur(500px);
+  }
+  .top-content p{
+    color: rgb(255, 255, 255);
+    font-weight:400 ;
   }
     
    }
