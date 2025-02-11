@@ -308,6 +308,14 @@
     .top{
       padding-bottom: 0;
     }
+    .top-img_and_contant {
+     
+      overflow: hidden;
+     
+      background-size: cover;
+      background-position-y: bottom;
+      height: 100vh;
+  }
     .top-content {
       width: 259px;
       /* background: red; */
