@@ -6,7 +6,16 @@
      /* min-width:33rem ; */
      
    }
+   /* ----defult value of text---- */
    
+   h1{
+    font-size: 30px;
+   }
+   p{
+    font-size: 18px;
+    
+   }
+   /* ----defult value of text---- */
    /* top-menu */
    .top-img_and_contant{
      background-image: url(./imges/top-b.png);
@@ -105,7 +114,7 @@
      background-color: #eae9e998;
      padding: 10px;
      border-radius: 5px;
-     box-shadow: 3px 2px 10px rgba(128, 128, 128, 0.599);
+     box-shadow: 2px 3px 6px rgba(128, 128, 128, 0.564);
    }
    .f1>div>img{
      height:100px;
@@ -301,7 +310,9 @@
    }
    .fot-2 p>a{color: rgba(255, 255, 255, 0.771);}
    
-   
+   .stati1 p{
+    text-align: center;
+   }
    /* ___________________MOBILE_________________ */
    
    @media screen and (max-width:600px){
@@ -309,25 +320,69 @@
       padding-bottom: 0;
     }
     .top-img_and_contant {
-     
       overflow: hidden;
-     
       background-size: cover;
       background-position-y: bottom;
       height: 100vh;
   }
-    .top-content {
-      min-width: 200px;
-      position: relative;
-      left: 0;
-      margin-top: 60px;
-      background-color: rgba(59, 57, 57, 0.573);
-      box-shadow: .2px .2px  ;
-      border-radius: 10px ;backdrop-filter: blur(500px);
-  }
+  .top-content {
+    min-width: 200px;
+    position: relative;
+    left: 0;
+    margin-top: 60px;
+    background-color: rgba(59, 57, 57, 0.573);
+    box-shadow: 0px 0px 28px .2px;
+    border-radius: 10px;
+    backdrop-filter: blur(500px);
+}
   .top-content p{
     color: rgb(255, 255, 255);
     font-weight:400 ;
   }
-    
+  /*----------2nd area----------*/
+  .f1 {
+    width: 82vw;
+    align-items: center;
+    height: 40vh;
+}
+.con-b1 p{
+  text-align: center;
+
+}
+.con-b2 {
+  gap: 9px;
+  flex-direction: column;
+  align-items: center;
+}
+/* ___________3rd Area__________ */
+section.taste_Cont {
+  flex-direction: column;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.tas-img {
+  height: 18vh;
+  /* width: 300px; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}
+.tas-para{
+  width: 60vw;
+}
+
+.tas-para h1{
+  padding-bottom: 2px;
+  font-size: 45px;
+}
+/*___________4th Area____________*/
+.stati2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  flex-wrap: wrap;
+}
    }
