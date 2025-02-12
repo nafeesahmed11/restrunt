@@ -319,7 +319,7 @@
     .top{
       padding-bottom: 0;
     }
-    .top-img_and_contant {
+    .top-img_and_contant{
       overflow: hidden;
       background-size: cover;
       background-position-y: bottom;
@@ -329,9 +329,62 @@
     min-width: 200px;
     position: relative;
     left: 0;
-    margin-top: 60px;
-   
+    margin-top: 60px;  
 }
+
+
+/* extra */
+/* From Uiverse.io by SteveBloX */ 
+.card {
+  box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* extra */
+
+
+
+
+
   .top-content p{
     color: rgb(255, 255, 255);
     font-weight:400 ;
