@@ -407,14 +407,14 @@ section.taste_Cont {
   align-items: center;
   
 }
-.tas-para{
+.tas-para {
   width: 60vw;
+  padding: 0;
 }
-
 .tas-para h1 {
-  padding-bottom: 2px;
+  /* padding-bottom: 2px; */
   font-size: 45px;
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 /*___________4th Area____________*/
 .stati2{
