@@ -337,8 +337,8 @@
 /* From Uiverse.io by SteveBloX */ 
 .card {
   box-sizing: border-box;
-  width: 21vh;
-  height: 31vh;
+  width: 30vw;
+  height: 60vh;
   background: rgba(217, 217, 217, 0.58);
   border: 1px solid white;
   box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.082);
