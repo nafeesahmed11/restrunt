@@ -294,10 +294,11 @@
      gap: 20px;
      color: rgba(255, 255, 255, 0.924);
    }
-   .fot-1{
-     width: 40%;
-     font-size: 16px;
-   }
+   .fot-1 {
+    width: 40%;
+    font-size: 16px;
+    padding-left: 14px;
+}
    .sub-fot{
      display: flex;
      gap: 10px;
