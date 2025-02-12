@@ -212,6 +212,7 @@
    /* Area 5 strat */
    section.grill-con {
      background-image: url(./imges/Vec-grill.png);
+    margin-bottom: 50px;
      display: flex;
      gap: 10px;
      justify-content: space-around;
@@ -342,38 +343,22 @@
   /* background: rgba(217, 217, 217, 0.58); */
   
   
-  /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.082); */
-  backdrop-filter: blur(1px);
-  border-radius: 17px;
-  text-align: center;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.082);
+  backdrop-filter: blur(2px);
+  border-radius: 0px 22px 22px 0px;
+  
   cursor: pointer;
-  transition: all 0.5s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ 
+
+
   user-select: none;
-  font-weight: bolder;
-  color: black;
+
   flex-direction: column;
-<<<<<<< HEAD
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 40px 4px;
   margin: 0;
   
-=======
-  padding: 0;
-  margin:0;
->>>>>>> b1c765d2bbdda181a3e0bdf158bd236d206d1c4e
-}
 
-.card:hover {
-  /* border: 1px solid black; */
-  transform: scale(1.05);
 }
-
-.card:active {
-  transform: scale(0.95) rotateZ(1.7deg);
-}
-
 /* extra */
 
 button {
