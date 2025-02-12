@@ -337,12 +337,13 @@
 /* From Uiverse.io by SteveBloX */ 
 .card {
   box-sizing: border-box;
-  width: 300px;
-  height: 500px;
-  background: rgba(217, 217, 217, 0.58);
-  border: 1px solid white;
-  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.082);
-  backdrop-filter: blur(6px);
+  /* width: 300px;
+  height: 500px; */
+  /* background: rgba(217, 217, 217, 0.58); */
+  
+  
+  /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.082); */
+  backdrop-filter: blur(1px);
   border-radius: 17px;
   text-align: center;
   cursor: pointer;
@@ -354,11 +355,13 @@
   font-weight: bolder;
   color: black;
   flex-direction: column;
-  padding: 0;
+  padding: 0px 0px 40px 0px;
+  margin: 0;
+  
 }
 
 .card:hover {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   transform: scale(1.05);
 }
 
@@ -366,24 +369,12 @@
   transform: scale(0.95) rotateZ(1.7deg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* extra */
 
-
+button {
+ 
+  margin-bottom: 12px;
+}
 
 
 
