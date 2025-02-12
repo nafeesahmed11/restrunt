@@ -210,18 +210,18 @@
      color: white;
    }
    /* Area 5 strat */
-   section.grill-con {
-     background-image: url(./imges/Vec-grill.png);
+ section.grill-con {
+    background-image: url(./imges/Vec-grill.png);
     margin-bottom: 50px;
-     display: flex;
-     gap: 10px;
-     justify-content: space-around;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position-y: 100%;
-     height: 360px;
-    }
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-around;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 100%;
+    min-height: 360px;
+}
 
    /* Area 6 start */
    .len-fields{
