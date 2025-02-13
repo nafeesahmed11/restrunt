@@ -6,11 +6,37 @@
      /* min-width:33rem ; */
      
    }
-   /* ----defult value of text---- */
+  /* desktop navbar start */
+  .desk-nav{
+    display: flex;
+    justify-content: end;
+    min-width: 60%;
+    overflow: hidden;
+  }
+  .de-nev {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-right: 10px;
+    align-items: center;
+}
+  .de-nev a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Questrial", serif;
+    word-spacing: 10px;
+    font-size: 2.4vh;
+  }
+  .de-nev img{
+    height: 1.8vh;
+    width: auto;
+  }
+  /* desktop navbar End */
 
 
    /* 1st drop down menu start */
- /* From Uiverse.io by gharsh11032000 */ 
+ 
  .menu {
   font-size: 16px;
   line-height: 1.6;
@@ -21,6 +47,7 @@
   width: 60%;
   display: flex;
   justify-content: end;
+  display: none;
 }
 
 .menu a {
@@ -60,7 +87,7 @@
 .menu .link svg {
   width: 14px;
   height: 14px;
-  fill: white;
+  fill: red;
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -78,6 +105,7 @@
   /* padding: 12px 24px; */
   position: relative;
   background: #303030;
+  width: 100px;
   
 }
 .menu .item {
@@ -213,6 +241,7 @@
    }
    img.log {
     height: 25px;
+    padding-left: 8px;
    }
    .top-nav>menu {
     display: flex;
@@ -487,7 +516,16 @@
     text-align: center;
    }
 
- 
+   /* .menu.link{
+    transition: orange 3s ease-in-out 50s;
+  
+   }
+   .menu .link:hover{
+  width: 20vw; 
+  transition: orange s ease-in-out 50s;
+  
+  } */
+
    /* ___________________MOBILE_________________ */
    
    @media screen and (max-width:600px){
@@ -648,7 +686,8 @@ footer.foot {
 /* nav bar  */
 .submenu .submenu-link {
   display: block;
-  padding: 28.2px 6px;
+  padding: 28.2px 6px ;
+ 
   width: 100%;
   opacity: 0.9;
   position: relative;
