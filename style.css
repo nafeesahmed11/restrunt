@@ -244,18 +244,7 @@
     height: 25px;
     padding-left: 8px;
    }
-   .top-nav>menu {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-   }
-   .top-nav>menu>li>a{
-    text-decoration: none;
-    color: white;
-   }
-   .top-nav>menu>i{
-     color: palegoldenrod;
-   }
+   
    
    /* top-contant */
    .top-content {
@@ -269,7 +258,7 @@
    }
    .title{
      color: #ffc200; 
-   
+     height: 20px;
      font-size: 50px;
    }
    .top-content>p{
@@ -516,7 +505,12 @@
    .stati1 p{
     text-align: center;
    }
-
+   .top-content p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
    /* .menu.link{
     transition: orange 3s ease-in-out 50s;
   
