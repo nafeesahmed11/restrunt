@@ -31,6 +31,7 @@
   .de-nev img{
     height: 1.8vh;
     width: auto;
+    cursor: pointer;
   }
   /* desktop navbar End */
 
