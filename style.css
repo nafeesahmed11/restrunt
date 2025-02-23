@@ -1,6 +1,7 @@
 
-  body{margin: 0;
-    font-family: "Quicksand", serif;
+  body{
+     margin: 0;
+     font-family: "Quicksand", serif;
      font-optical-sizing: auto;
      font-style: normal;
      /* min-width:33rem ; */
